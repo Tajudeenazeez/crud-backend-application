@@ -26,7 +26,7 @@ mongoose.connect(mongoURI,{useNewUrlParser:true,useFindAndModify:true}).then(()=
 });
 
 
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 
 app.listen(port,()=>{
