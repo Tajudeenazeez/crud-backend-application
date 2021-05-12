@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 
 const usersRoutes = require("./routes/usersRoutes");
-const {mngoURI, mongoURI} = require("./config")
+const {mongoURI} = require("./config")
 
 
 
